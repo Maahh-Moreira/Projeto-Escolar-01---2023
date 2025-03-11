@@ -1,0 +1,47 @@
+body {
+    background: url(./Imagens/Dark-Back.jpg);
+    overflow: hidden;
+}
+
+.barra,
+a {
+  text-decoration: none
+
+}
+
+.barra:hover {
+  color: rgba(255, 255, 255, 0.514);
+  scale: 1.1;
+}
+.barra{
+    transition: 0.5s;
+}
+.sobre,
+.gears,
+.arcos,
+.extra,
+.personagens {
+  padding-left: 7px;
+  padding-right: 7px;
+  font-size: medium;
+}
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 9%;
+    top: 3%;
+    color: white;
+    z-index: 1;
+    padding-bottom: 50px;
+  }
+.Text{
+  text-align: center;
+  font-family: 'Rubik',sans-serif;
+  position: relative;
+    display: flex;
+    min-height: 90px;
+    max-width: 80%;
+    left: 10%;
+    padding: 0;
+}

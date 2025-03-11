@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./Imagens/Black-Ground.jpg)
+}
+.contentA{
+    height: 550px;
+    width: 935px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.navigationA{
+    position: absolute;
+    bottom: 5px;
+    display: flex;
+    transform: translate(-50%);
+    left: 50%;
+}
+.barra,
+a {
+  text-decoration: none
+}
+
+.barra:hover {
+  color: rgba(255, 255, 255, 0.514);
+  scale: 1.1;
+}
+.barra{
+    transition: 0.5s;
+}
+.sobre,
+.gears,
+.arcos,
+.extra,
+.personagens {
+  padding-left: 7px;
+  padding-right: 7px;
+  font-size: medium;
+}
+.cabecalho {
+    display: flex;
+    position: fixed;
+    left: 9%;
+    top: 3%;
+    color: white;
+    z-index: 1;
+  }
+
+.barA{
+    width: 70px;
+    height: 17px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    transition: .6s;
+   
+}
+.barA:hover{
+    background-color: #fff;
+}
+input{
+    display: none;
+}
+.slides{
+    display: flex;
+    width: 500%;
+    height: 100%;
+}
+.slide{
+    width: 20%;
+    transition: .6;
+}
+.slide img{
+    width: 100%;
+    height: 100%;
+}
+#slide1:checked ~ .s1{
+    margin-left: 0;
+    transition: 1s;
+}
+#slide2:checked ~.s1{
+    margin-left: -20%;
+    transition: 1s;
+}
+#slide3:checked ~ .s1{
+    margin-left: -40%;
+    transition: 1s;
+}
+#slide4:checked ~ .s1{
+    margin-left: -60%;
+    transition: 1s;
+} 
+#slide5:checked ~.s1{
+    margin-left: -80%;
+    transition: 1s;
+}
+.ArcosDc{
+    text-align: center;
+    color: #fff;
+    background-color: #7c74743b;
+    border-radius: 5px;
+    border: #ffffff6c solid;
+}

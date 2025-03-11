@@ -1,0 +1,136 @@
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   align-content: center;
+   width: 100%;
+   height: 100vh;
+}
+.card{
+    background: #FFF;
+    border-radius: 20px;
+    box-shadow: 10px 2px 23px #ffffff;
+}
+.mediacard{
+    background: url(./Src/Imagens/Luffy-Gear-5.jpg) center/cover;
+    height: 450px;
+    width: 100%;
+}
+.mediacard2{
+    background: url(./Src/Imagens/Luffy-Gear-4.jpg) center/cover;
+    height: 250px;
+    width: 100%;
+    
+}
+.mediacard3{
+    background: url(./Src/Imagens/Luffy-Gear-2.png) center/cover;
+    height: 250px;
+    width: 100%;
+}
+.mediacard4{
+    background: url(./Src/Imagens/Luffy-Gear-3.png) center/cover;
+    height: 250px;
+    width: 100%;
+}
+.topcard{
+    padding: 10px;
+    padding-top: 10px;
+}
+.bottomcard{
+    padding: 10px;
+}
+.barra,
+a {
+  text-decoration: none
+
+}
+
+.barra:hover {
+  color: rgba(255, 255, 255, 0.514);
+  scale: 1.1;
+}
+.barra{
+    transition: 0.5s;
+}
+.sobre,
+.gears,
+.arcos,
+.extra,
+.personagens {
+  padding-left: 7px;
+  padding-right: 7px;
+  font-size: medium;
+}
+.cabecalho {
+    display: flex;
+    position: fixed;
+    left: 9%;
+    top: 3%;
+    color: white;
+    z-index: 1;
+  }
+  .conteudo {
+    position: absolute;
+    top: 10px;
+    left: 120px;
+    text-align: center;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    max-width: 230px;
+}
+.conteudo2 {
+    position: absolute;
+    top: 10px;
+    left: 400px;
+    text-align: center;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    max-width: 230px;
+}
+.conteudo3 {
+    position: absolute;
+    top: 10px;
+    left: 680px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    max-width: 230px;
+}
+.conteudo4 {
+    position: absolute;
+    top: 10px;
+    left: 960px;
+    text-align: center;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    max-width: 230px;
+}
+.title{
+    font-family: 'Secular One', sans-serif;
+    text-align: center;
+}
+#container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

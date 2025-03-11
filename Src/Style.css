@@ -1,0 +1,173 @@
+body {
+    background-color: #000000;
+    overflow: hidden;
+}
+
+main .personagem {
+    display: none;
+    height: 100vh;
+}
+
+main .personagem.selecionado {
+    display: block;
+}
+
+main .personagem .imagem {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.conteudo {
+    position: absolute;
+    top: 0;
+    left: 120px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    max-width: 380px;
+}
+
+.conteudoEntrada{
+    position: absolute;
+    top:0;
+    right: 30%;
+    left: 30%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 60vh;
+    max-width: 600px;
+}
+
+.conteudoEntrada .titulo{
+    color: #ffffff;
+    font-size: 30px;
+    font-family:'Secular One', sans-serif;
+    margin-bottom: 10px;
+}
+
+.conteudo .nome-personagem {
+    color: #ffffff;
+    font-size: 48px;
+    font-family: 'Secular One', sans-serif;
+    margin-bottom: 20px;
+
+}
+
+.conteudoEntrada .entrada {
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    line-height: 24px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.conteudo .descricao {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+.conteudo .logo {
+    background-image: url(./Imagens/One-Piece-Logo.png);
+    background-size: cover;
+    height: 100px;
+    width: 230px;
+    margin-bottom: 35px;
+}
+
+.conteudo .sunny{
+    background-image:url(./Imagens/Sunny.png) ;
+    background-size: cover;
+    height: 100px;
+    width: 230px;
+    margin-bottom:35px;
+}
+
+.botoes {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /*espaçamento entre eles, usando o display flex*/
+}
+
+.botoes .botao {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.botoes .botao img {
+    opacity: 0.3;
+    transition: 1s;
+}
+
+.botoes .botao img:hover {
+    opacity: 100%;
+    scale: 1.1;
+}
+
+.botoes .botao.selecionado {
+    margin: 5px;
+    transition: 1s;
+}
+.barra,
+a {
+  text-decoration: none
+
+}
+
+.barra:hover {
+  color: rgba(255, 255, 255, 0.514);
+  scale: 1.1;
+}
+.barra{
+    transition: 0.5s;
+}
+.sobre,
+.gears,
+.arcos,
+.extra,
+.personagens {
+  padding-left: 7px;
+  padding-right: 7px;
+  font-size: medium;
+}
+.cabecalho {
+    display: flex;
+    position: fixed;
+    left: 9%;
+    top: 3%;
+    color: white;
+    z-index: 1;
+  }
+
+  .transicao {
+    transition: opacity 0.5s, visibility 0.5s;
+    opacity: 0;
+    visibility: block;
+}
+
+.mostrar {
+    opacity: 1;
+    visibility: visible;
+}
+#block{
+    opacity: 100%;
+    transition: opacity 0.5s, visibility 0.5s;
+    visibility: block;
+}
+

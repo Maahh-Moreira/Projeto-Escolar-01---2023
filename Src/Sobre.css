@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik&family=Secular+One&display=swap');
+
+body{
+    font-family: "Roboto", sans-serif;
+    overflow: hidden;
+    background: url(./Imagens/VibesBack.jpg);
+}
+.content1{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    padding-left: 5%;
+    padding-top: 7%;
+    padding-right: 5%;
+    font-size: 16px;
+}
+.card1{
+    border-radius: 20px;
+    width: 50%;
+    height: 85vh;
+    background-color: rgb(0, 0, 0);
+    box-shadow:  2px 2px 20px rgb(218, 214, 214);
+    color: rgb(117, 132, 145);
+    margin-right: 20px;
+    
+}
+.card1,
+.card2 {
+    overflow:auto; 
+    word-wrap: break-word;
+}
+
+.mediaC1{
+    background: url(./Imagens/Sobre-Banner.png) center/cover;
+    height: 220px;
+    width: 100%;
+}
+.mediaC2{
+    background: url(./Imagens/History.png) center/cover;
+    height: 240px;
+    width: 100%;
+}
+.content2{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    font-size: 24px;
+}
+.card2{
+    border-radius: 20px;
+    width: 50%;
+    height: 85vh;
+    background-color: rgb(0, 0, 0);
+    box-shadow:  1px 2px 23px rgba(218, 214, 214, 0.658);
+    color: rgb(117, 132, 145);
+}
+
+.titulo{
+    color: whitesmoke;
+}
+.topCard{
+    padding: 20px;
+    padding-top: 0;
+}
+.topCardV{
+    padding: 20px;
+}
+.bottomC{
+    padding: 20px;
+}
+.barra,
+a {
+  text-decoration: none
+
+}
+
+.barra:hover {
+  color: rgba(255, 255, 255, 0.514);
+  scale: 1.1;
+}
+.barra{
+    transition: 0.5s;
+}
+.sobre,
+.gears,
+.arcos,
+.extra,
+.personagens {
+  padding-left: 7px;
+  padding-right: 7px;
+  font-size: 16px;
+}
+.cabecalho {
+    display: flex;
+    position: fixed;
+    left: 9%;
+    top: 3%;
+    color: white;
+    z-index: 1;
+  }
+
+ .mediaV{
+    height: 85vh;
+    width: 100%;
+ }
+ .mediaV img{
+    width: 100%;
+    height: 85vh;
+    border-radius: 20px;
+    border-bottom: 20px;
+ }
+ .contentV{
+    display: flex;
+    width: 50%;
+    height: 85vh;
+    font-size: 24px;
+ }
+ .cardV{
+    border-radius: 20px;
+    width: 100%;
+    height: 85vh;
+    box-shadow:  2px 2px 20px rgb(218, 214, 214);
+    margin-left: 20px;
+    border-bottom: 20px;
+    margin-right: 20px;
+ }
